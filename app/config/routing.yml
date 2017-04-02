@@ -1,4 +1,7 @@
 app:
     resource: "@AppBundle/Controller/"
     type:     annotation
-    prefix:   /
+    prefix:   /{_locale}
+    requirements:
+        _locale: en|fr
+    defaults: {_locale: fr}
