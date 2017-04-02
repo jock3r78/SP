@@ -83,12 +83,12 @@
             <div class="main-menu">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <a href="#">Home</a>
+                        <a href="#">{{'Home'|trans }}</a>
                     </li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Service</a></li>
+                    <li><a href="#">{{'About'|trans }}</a></li>
+                    <li><a href="#">{{'Services'|trans }}</a></li>
                     <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Pages <span class="caret"></span></a>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">{{'Portfolio'|trans }}<span class="caret"></span></a>
                         <div class="dropdown-menu">
                             <ul>
                                 <li><a href="#">404 Page</a></li>
@@ -97,7 +97,7 @@
                         </div>
                     </li>
                     <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Blog <span class="caret"></span></a>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">{{'Blog'|trans }} <span class="caret"></span></a>
                         <div class="dropdown-menu">
                             <ul>
                                 <li><a href="#">Blog Full</a></li>
@@ -108,13 +108,13 @@
                     </li>
                     <li><a href="#">Contact</a></li>
                     <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Language <span class="caret"></span></a>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">{{'Language'|trans }}<span class="caret"></span></a>
                         <div class="dropdown-menu">
                             <ul>
-                                <li><a href="{{ path(app.request.get('_route'), app.request.get('_route_params')|merge({'_locale': 'fr'})) }}">Français</a></li>
-                                <li><a href="{{ path(app.request.get('_route'), app.request.get('_route_params')|merge({'_locale': 'en'})) }}">English</a></li>
-                                <li><a href="#">Polish</a></li>
-                                <li><a href="#">Ukrainian</a></li>
+                                <li><a href="{{ path(app.request.get('_route'), app.request.get('_route_params')|merge({'_locale': 'fr'})) }}">{{'French'|trans }}</a></li>
+                                <li><a href="{{ path(app.request.get('_route'), app.request.get('_route_params')|merge({'_locale': 'en'})) }}">{{'English'|trans }}</a></li>
+                                <li><a href="#">{{'Polish'|trans }}</a></li>
+                                <li><a href="#">{{'Ukrainian'|trans }}</a></li>
                             </ul>
                         </div>
                     </li>
@@ -136,19 +136,19 @@ Footer Section Start
 <footer id="footer">
     <div class="container">
         <div class="col-md-8">
-            <p class="copyright">Copyright: <span>2015</span> . Design and Developed by <a
-                        href="http://www.Themefisher.com">Themefisher</a></p>
+            <p class="copyright">Copyright: <span>2017</span> . {{'DDB'|trans }} <a
+                        href="http://www.jonathancassara.fr">Web-Agency Jonathan Cassara</a></p>
         </div>
         <div class="col-md-4">
             <!-- Social Media -->
             <ul class="social">
                 <li>
-                    <a href="http://wwww.fb.com/themefisher" class="Facebook">
+                    <a href="#" class="Facebook">
                         <i class="ion-social-facebook"></i>
                     </a>
                 </li>
                 <li>
-                    <a href="http://wwww.twitter.com/themefisher" class="Twitter">
+                    <a href="#" class="Twitter">
                         <i class="ion-social-twitter"></i>
                     </a>
                 </li>
@@ -158,7 +158,7 @@ Footer Section Start
                     </a>
                 </li>
                 <li>
-                    <a href="http://wwww.fb.com/themefisher" class="Google Plus">
+                    <a href="#" class="instagram">
                         <i class="ion-social-instagram"></i>
                     </a>
                 </li>
